@@ -21,7 +21,7 @@ h1 {
 button {
     cursor: pointer;
 }
-.howToPlayButton {
+#howToPlayButton {
     font-family: "Calibri", sans-serif;
     font-weight: bold;
     font-size: 1em;
@@ -139,8 +139,17 @@ h3 {
 }
 
 .middle {
-    margin-top: 1em;
     width: 33%;
+}
+
+#playAgain {
+    font-family: "Calibri", sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    color: #2897B7;
+    border: 1px solid #2897B7;
+    border-radius: 10px;
+    display: none;
 }
 
 .gemButton {
